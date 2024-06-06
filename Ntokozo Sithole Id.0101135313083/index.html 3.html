@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<title>Coffee Website</title>
+	<link rel="stylesheet" href="style.css">
+        <link rel="stlesheet" href="stlyle.css">
+</head>
+<body>
+		<div class="container">
+        <div class="nav-bar">
+                <h1 class="title">CHILLA NATHI.<span>CAFE</span></h1>
+                <ul class="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="Nto.html">Menu</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+            </div>
+            <div class="home">
+            <h1 class="title-1">The movement that inspires</h1>
+            <p>let us take care of you with a good morning cup of coffee. You deserve it.</p>
+            <button type="button">Buy Now</button>
+        </div>
+     </div>
+  </body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: url("coffee.jpg");
+	font-family: Arial, sans-serif;
+	background-size: cover;
+    background-position: center;
+}
+span {
+    color: rgb(136, 118, 72);
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 70px;
+}
+.nav-bar .title{
+    color: goldenrod;
+    font-size: 47px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.menu li {
+	list-style: none;
+    display: inline-block;
+}
+.menu li {
+    text-decoration: none;
+    columns: black;
+    font-size: 18px;
+    font-weight: 600px;
+    margin-left: 25px;
+    transition: .4s	ease;
+}
+.nav-bar p{
+    position: absolute;
+    margin-top: 95;
+    margin-left: 40;
+    color: rgb(155, 124, 79);
+    font-size: 22px;
+    font-weight: 500;
+}
+.menu li a:hover{
+    color: grey;
+    padding: 10px 15px;
+    border: 2px solid goldenrod;
+}
+.home {
+    height: 450px;
+    padding: 70px;
+}
+.home p{
+    color: rgb(155, 124, 79);
+    font-size: 18px;
+    padding-top: 10px;
+}
+.home button{
+    height: 45px;
+    color: brown;
+    background-color: beige;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    transition: .4s ease;
+    cursor: pointer;
+}
+.home button:hover{
+    background: none;
+    border: 15px solid black;
+
+}
+</style>
+</html>
